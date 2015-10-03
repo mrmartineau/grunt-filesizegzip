@@ -1,0 +1,49 @@
+{
+  "name": "grunt-filesizegzip",
+  "description": "Grunt plugin to output file size information",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mrmartineau/grunt-filesizegzip",
+  "author": {
+    "name": "Zander Martineau",
+    "email": "zander@martineau.tv",
+    "url": "http://martineau.tv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrmartineau/grunt-filesizegzip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmartineau/grunt-filesizegzip/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mrmartineau/grunt-filesizegzip/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "figures": "^1.4.0",
+    "filesizegzip": "^1.0.0",
+    "gzip-size": "^3.0.0",
+    "pretty-bytes": "^2.0.1"
+  }
+}

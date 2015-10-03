@@ -42,7 +42,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "figures": "^1.4.0",
-    "filesizegzip": "^1.0.0",
+    "filesizegzip": "^2.0.0",
     "gzip-size": "^3.0.0",
     "pretty-bytes": "^2.0.1"
   }
